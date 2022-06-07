@@ -5,6 +5,7 @@ go 1.18
 require cfa v0.0.0
 
 require (
+    github.com/MetaCubeX/Clash.Meta v1.11.1
 	cfa/blob v0.0.0 // indirect
 	github.com/Dreamacro/clash v1.7.1 // indirect
 	github.com/Dreamacro/go-shadowsocks2 v0.1.8 // indirect
