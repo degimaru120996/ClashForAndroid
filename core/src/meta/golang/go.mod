@@ -1,4 +1,4 @@
-module premium
+module meta
 
 go 1.18
 
@@ -52,6 +52,6 @@ require (
 
 replace cfa => ../../main/golang
 
-replace github.com/Dreamacro/clash => ./clash
+replace github.com/degimaru120996/Clash.Meta => ./clash
 
 replace cfa/blob => ../../../build/intermediates/golang_blob
