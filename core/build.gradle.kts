@@ -27,6 +27,10 @@ golang {
             tags.set(listOf("premium", "without_gvisor", "without_system"))
             srcDir.set(file("src/premium/golang"))
         }
+        create("meta") {
+            tags.set(listOf("meta"))
+            srcDir.set(file("src/meta/golang"))
+        }
         all {
             fileName.set("libclash.so")
             packageName.set("cfa/native")
